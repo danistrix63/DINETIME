@@ -1,0 +1,16 @@
+<!-- app/src/main/res/values/strings.xml -->
+<resources>
+    <string name="app_name">DineTime</string>
+    <string name="profile">Profile</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="language">Language</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="feedback">Feedback</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="update">Update</string>
+    <string name="logout">Logout</string>
+    <string name="select_language">Select language</string>
+    <string name="spanish">Spanish</string>
+    <string name="english">English</string>
+    <!-- Add more as needed -->
+</resources>

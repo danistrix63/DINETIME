@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dinetime">
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Dinetime"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+
+        <!-- Pantalla de Splash (pantalla inicial) -->
+        <activity android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RegisterActivity"
+            android:label="Registro" />
+
+        <activity android:name=".LoginActivity"
+            android:label="Inicio" />
+
+        <activity android:name=".MainActivity"
+            android:label="Main" />
+
+        <activity android:name=".ExploreActivity"
+            android:label="Explorar" />
+
+        <activity android:name=".DetailsActivity"
+            android:label="Detalles" />
+
+        <activity android:name=".ForgotPasswordActivity"
+            android:label="Recuperar contraseña" />
+        <activity android:name=".HomeActivity"
+            android:label="Home" />
+        <activity android:name=".ProfileActivity"
+            android:label="Perfil" />
+        <activity android:name=".BookingActivity"
+            android:label="Historial de Reservas" />
+
+        <activity android:name=".CancelActivity"
+            android:label="Historial de Reservas" />
+
+
+    </application>
+
+</manifest>

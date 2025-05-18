@@ -1,0 +1,10 @@
+<resources>
+    <!-- Tema para el modo oscuro -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/primaryDark</item> <!-- Fondo verde oscuro -->
+        <item name="android:textColor">@color/primaryLight</item> <!-- Texto crema -->
+        <item name="android:colorPrimary">@color/textBrown</item> <!-- Color primario marrón -->
+        <item name="android:colorPrimaryDark">@color/buttonGreen</item> <!-- Color verde oliva -->
+        <item name="android:colorAccent">@color/buttonBeige</item> <!-- Color dorado -->
+    </style>
+</resources>

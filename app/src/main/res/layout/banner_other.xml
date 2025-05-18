@@ -1,0 +1,64 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#4CAF50"
+        android:padding="12dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pizza"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingStart="16dp"
+            android:paddingEnd="8dp">
+
+            <TextView
+                android:id="@+id/offerTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lo nuevo"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/offerDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Las Mejores Pizza's de la ciudad."
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp" />
+
+            <!-- Botón Pedir con ID único -->
+            <TextView
+                android:id="@+id/btnPedirBanner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pedir >"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

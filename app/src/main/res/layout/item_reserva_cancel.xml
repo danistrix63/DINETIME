@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/card_bg"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp"
+    android:elevation="2dp">
+
+    <ImageView
+        android:id="@+id/ivRestaurante"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/restaurante1"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <TextView
+            android:id="@+id/tvNombreRestaurante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre Restaurante"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvDireccionRestaurante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dirección"
+            android:textSize="12sp"
+            android:textColor="#666666" />
+
+        <TextView
+            android:id="@+id/tvFechaReserva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha"
+            android:textSize="12sp"
+            android:textColor="#666666" />
+
+        <TextView
+            android:id="@+id/tvEstadoReserva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estado"
+            android:textSize="12sp"
+            android:textColor="#666666" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D32F2F"
+        android:layout_gravity="center_vertical"
+        android:textSize="12sp"/>
+</LinearLayout>

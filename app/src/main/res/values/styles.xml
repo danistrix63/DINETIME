@@ -1,0 +1,10 @@
+<resources>
+    <!-- Tema para el modo claro -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/primaryLight</item> <!-- Fondo crema -->
+        <item name="android:textColor">@color/textBrown</item> <!-- Texto marrón -->
+        <item name="android:colorPrimary">@color/buttonGreen</item> <!-- Color primario verde oliva -->
+        <item name="android:colorPrimaryDark">@color/primaryDark</item> <!-- Color oscuro verde -->
+        <item name="android:colorAccent">@color/buttonBeige</item> <!-- Color dorado -->
+    </style>
+</resources>
